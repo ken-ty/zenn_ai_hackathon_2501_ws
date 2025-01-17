@@ -37,17 +37,22 @@ AI Agent Hackathon with Google Cloud のワークスペース
 
 ```bash
 # 1. ワークスペースのclone
-git clone https://github.com/zenn-ai-hackathon-2501/zenn_ai_hackathon_2501_ws.git
+git clone --recurse-submodules https://github.com/zenn-ai-hackathon-2501/zenn_ai_hackathon_2501_ws.git
 cd zenn_ai_hackathon_2501_ws
 
-# 2. submodule の初期化と更新
-git submodule init
-git submodule update --recursive --remote
+# 2. submodule の初期化と更新（既に含まれている場合はこのステップを省略）
+# このように、git cloneの際に--recurse-submodulesオプションを使用することで、サブモジュールも同時にクローンされるようにしています
+git submodule update --init --recursive
 
 # 3. 環境変数の設定
 cp .env.example .env
 # .env ファイルを編集して必要な環境変数を設定してください
 ```
+
+!注意!
+
+以降は AI がが生成した出鱈目な手順です。
+今はコピペしても動きませんが、今後の開発で目指すべきところでもあるので参考に残します。
 
 ## 開発環境の起動
 
