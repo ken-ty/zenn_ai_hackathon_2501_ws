@@ -1,0 +1,6 @@
+[submodule "zenn_ai_hackathon_2501_backend"]
+	path = zenn_ai_hackathon_2501_backend
+	url = https://github.com/zenn-ai-hackathon-2501/zenn_ai_hackathon_2501_backend.git
+[submodule "zenn_ai_hackathon_2501_frontend"]
+	path = zenn_ai_hackathon_2501_frontend
+	url = https://github.com/zenn-ai-hackathon-2501/zenn_ai_hackathon_2501_frontend.git
